@@ -13,20 +13,26 @@
 				new Category
 				{
 					Id = 1,
-					Name = "Books",
-					URL = "books"
+					Name = "Shoes",
+					URL = "shoes"
 				},
 				new Category
 				{
 					Id = 2,
-					Name = "Movies",
-					URL = "movies"
+					Name = "Consoles",
+					URL = "consoles"
 				},
 				new Category
 				{
 					Id = 3,
 					Name = "Video Games",
 					URL = "video-games"
+				},
+				new Category
+				{
+					Id = 4,
+					Name = "Football Jersey's",
+					URL = "football-jersey"
 				}
 			);
 
@@ -34,105 +40,103 @@
 				new Product
 				{
 					Id = 1,
-					Title = "The Hitchhiker's Guide to the Galaxy",
-					Description = "The Hitchhiker's Guide to the Galaxy[note 1] (sometimes referred to as HG2G,[1] HHGTTG,[2] H2G2,[3] or tHGttG) is a comedy science fiction franchise created by Douglas Adams. Originally a 1978 radio comedy broadcast on BBC Radio 4, it was later adapted to other formats, including stage shows, novels, comic books, a 1981 TV series, a 1984 text-based computer game, and 2005 feature film.",
-					ImageURL = "https://upload.wikimedia.org/wikipedia/en/b/bd/H2G2_UK_front_cover.jpg",
-					Price = 9.99m,
-					CategoryId=1
+					CategoryId = 1,
+					Title = "Nike SB Stefan Janoski Max",
+					Description = "The Nike SB Stefan Janoski Max offers good hold and balance courtesy of its skateboarding roots and as designed by Janoski himself. It has adequate room for multiple foot shapes and sizes. This kick is available in men's and women's sizing. It has a textile upper that allows the foot to breathe and stay fresh and cool.",
+					ImageURL = "https://sneakerbardetroit.com/wp-content/uploads/2015/08/Nike-SB-Stefan-Janoski-Max-Suede-University-Red-4.jpg",
+					Price = 69.99m
 				},
 				new Product
 				{
 					Id = 2,
-					Title = "Ready Player One",
-					Description = "Ready Player One is a 2011 science fiction novel, and the debut novel of American author Ernest Cline. The story, set in a dystopia in 2045, follows protagonist Wade Watts on his search for an Easter egg in a worldwide virtual reality game, the discovery of which would lead him to inherit the game creator's fortune. Cline sold the rights to publish the novel in June 2010, in a bidding war to the Crown Publishing Group (a division of Random House).[1] The book was published on August 16, 2011.[2] An audiobook was released the same day; it was narrated by Wil Wheaton, who was mentioned briefly in one of the chapters.[3][4]Ch. 20 In 2012, the book received an Alex Award from the Young Adult Library Services Association division of the American Library Association[5] and won the 2011 Prometheus Award.[6]",
-					ImageURL = "https://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg",
-					Price = 7.99m,
-					CategoryId = 1
+					CategoryId = 1,
+					Title = "Adidas I-5923",
+					Description = "The low-top Adidas I-5923 sneaker is adored by many for its comfortable feel. Its silhouette, which mixes vintage Adidas Originals aesthetic with modern tech, is often described as stylish and cute.",
+					ImageURL = "https://media.endclothing.com/media/catalog/product/0/4/04-07-2018_adidas_i-5923_whitegrey_gum_b37947_mg_1.jpg",
+					Price = 64.99m
 				},
 				new Product
 				{
 					Id = 3,
-					Title = "Nineteen Eighty-Four",
-					Description = "Nineteen Eighty-Four (also stylised as 1984) is a dystopian social science fiction novel and cautionary tale written by English writer George Orwell. It was published on 8 June 1949 by Secker & Warburg as Orwell's ninth and final book completed in his lifetime. Thematically, it centres on the consequences of totalitarianism, mass surveillance and repressive regimentation of people and behaviours within society.[2][3] Orwell, a democratic socialist, modelled the totalitarian government in the novel after Stalinist Russia and Nazi Germany.[2][3][4] More broadly, the novel examines the role of truth and facts within politics and the ways in which they are manipulated.",
-					ImageURL = "https://upload.wikimedia.org/wikipedia/commons/c/c3/1984first.jpg",
-					Price = 6.99m,
-					CategoryId = 1
+					CategoryId = 1,
+					Title = "Vans Old Skool",
+					Description = "Overview The Old Skool, the Vans classic skate shoe and first to bare the iconic sidestripe, is a low top lace-up featuring sturdy canvas and suede uppers, re-enforced toecaps to withstand repeated wear, padded collars for support and flexibility, and signature rubber waffle outsoles.",
+					ImageURL = "https://photos6.spartoo.pt/photos/261/26185/26185_500_A.jpg",
+					Price = 74.99m
 				},
-                new Product
+				new Product
                 {
                     Id = 4,
                     CategoryId = 2,
-                    Price = 4.99m,
-                    Title = "The Matrix",
-                    Description = "The Matrix is a 1999 science fiction action film written and directed by the Wachowskis, and produced by Joel Silver. Starring Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving, and Joe Pantoliano, and as the first installment in the Matrix franchise, it depicts a dystopian future in which humanity is unknowingly trapped inside a simulated reality, the Matrix, which intelligent machines have created to distract humans while using their bodies as an energy source. When computer programmer Thomas Anderson, under the hacker alias \"Neo\", uncovers the truth, he \"is drawn into a rebellion against the machines\" along with other people who have been freed from the Matrix.",
-                    ImageURL = "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",
-                },
-                new Product
-                {
-                    Id = 5,
-                    CategoryId = 2,
-                    Price = 3.99m,
-                    Title = "Back to the Future",
-                    Description = "Back to the Future is a 1985 American science fiction film directed by Robert Zemeckis. Written by Zemeckis and Bob Gale, it stars Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover, and Thomas F. Wilson. Set in 1985, the story follows Marty McFly (Fox), a teenager accidentally sent back to 1955 in a time-traveling DeLorean automobile built by his eccentric scientist friend Doctor Emmett \"Doc\" Brown (Lloyd). Trapped in the past, Marty inadvertently prevents his future parents' meeting—threatening his very existence—and is forced to reconcile the pair and somehow get back to the future.",
-                    ImageURL = "https://upload.wikimedia.org/wikipedia/en/d/d2/Back_to_the_Future.jpg",
-                },
-                new Product
-                {
-                    Id = 6,
-                    CategoryId = 2,
-                    Price = 2.99m,
-                    Title = "Toy Story",
-                    Description = "Toy Story is a 1995 American computer-animated comedy film produced by Pixar Animation Studios and released by Walt Disney Pictures. The first installment in the Toy Story franchise, it was the first entirely computer-animated feature film, as well as the first feature film from Pixar. The film was directed by John Lasseter (in his feature directorial debut), and written by Joss Whedon, Andrew Stanton, Joel Cohen, and Alec Sokolow from a story by Lasseter, Stanton, Pete Docter, and Joe Ranft. The film features music by Randy Newman, was produced by Bonnie Arnold and Ralph Guggenheim, and was executive-produced by Steve Jobs and Edwin Catmull. The film features the voices of Tom Hanks, Tim Allen, Don Rickles, Wallace Shawn, John Ratzenberger, Jim Varney, Annie Potts, R. Lee Ermey, John Morris, Laurie Metcalf, and Erik von Detten. Taking place in a world where anthropomorphic toys come to life when humans are not present, the plot focuses on the relationship between an old-fashioned pull-string cowboy doll named Woody and an astronaut action figure, Buzz Lightyear, as they evolve from rivals competing for the affections of their owner, Andy Davis, to friends who work together to be reunited with Andy after being separated from him.",
-                    ImageURL = "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
-
-                },
-                new Product
-                {
-                    Id = 7,
-                    CategoryId = 3,
-                    Title = "Half-Life 2",
-                    Price = 49.99m,
-                    Description = "Half-Life 2 is a 2004 first-person shooter game developed and published by Valve. Like the original Half-Life, it combines shooting, puzzles, and storytelling, and adds features such as vehicles and physics-based gameplay.",
-                    ImageURL = "https://upload.wikimedia.org/wikipedia/en/2/25/Half-Life_2_cover.jpg",
-
-                },
-                new Product
-                {
-                    Id = 8,
-                    CategoryId = 3,
-                    Title = "Diablo II",
-                    Price = 9.99m,
-                    Description = "Diablo II is an action role-playing hack-and-slash computer video game developed by Blizzard North and published by Blizzard Entertainment in 2000 for Microsoft Windows, Classic Mac OS, and macOS.",
-                    ImageURL = "https://upload.wikimedia.org/wikipedia/en/d/d5/Diablo_II_Coverart.png",
-                },
-                new Product
-                {
-                    Id = 9,
-                    CategoryId = 3,
-                    Price = 14.99m,
-                    Title = "Day of the Tentacle",
-                    Description = "Day of the Tentacle, also known as Maniac Mansion II: Day of the Tentacle, is a 1993 graphic adventure game developed and published by LucasArts. It is the sequel to the 1987 game Maniac Mansion.",
-                    ImageURL = "https://upload.wikimedia.org/wikipedia/en/7/79/Day_of_the_Tentacle_artwork.jpg",
-                },
-                new Product
-                {
-                    Id = 10,
-                    CategoryId = 3,
-                    Price = 159.99m,
-                    Title = "Xbox",
-                    Description = "The Xbox is a home video game console and the first installment in the Xbox series of video game consoles manufactured by Microsoft.",
-                    ImageURL = "https://upload.wikimedia.org/wikipedia/commons/4/43/Xbox-console.jpg",
-                },
-                new Product
-                {
-                    Id = 11,
-                    CategoryId = 3,
-                    Price = 79.99m,
-                    Title = "Super Nintendo Entertainment System",
-                    Description = "The Super Nintendo Entertainment System (SNES), also known as the Super NES or Super Nintendo, is a 16-bit home video game console developed by Nintendo that was released in 1990 in Japan and South Korea.",
-                    ImageURL = "https://upload.wikimedia.org/wikipedia/commons/e/ee/Nintendo-Super-Famicom-Set-FL.jpg",
-                }
-            );
+                    Title = "PlayStation 4",
+                    Description = "A slanted black box with both a matte and shine finish, with a sleek blue line through the middle, the PlayStation 4 will slot into most living rooms comfortably. Sony's fourth PlayStation console is fast, sleek and powerful.",
+                    ImageURL = "https://gmedia.playstation.com/is/image/SIEPDC/ps4-slim-image-block-01-en-24jul20?$native--t$",
+					Price = 399.99m
+				},
+				new Product
+				{
+					Id = 5,
+					CategoryId = 2,
+					Title = "Game Boy Color",
+					Description = "Game Boy Color (abbreviated as GBC) is a handheld video game console developed by Nintendo. Originally released in late 1998, it is the successor to the original Game Boy, and is slightly larger than the Game Boy Pocket and significantly smaller than the original Game Boy.",
+					ImageURL = "https://www.backmarket.pt/cdn-cgi/image/format=auto,quality=75,width=640/https://d1eh9yux7w8iql.cloudfront.net/product_images/1568704266.81.jpg",
+					Price = 69.99m
+				},
+				new Product
+				{
+					Id = 6,
+					CategoryId = 2,
+					Title = "PlayStation Portable",
+					Description = "The PlayStation Portable (PSP) is a handheld game console developed and marketed by Sony Computer Entertainment. It was first released in Japan on December 12, 2004, in North America on March 24, 2005, and in PAL regions on September 1, 2005, and is the first handheld installment in the PlayStation line of consoles.",
+					ImageURL = "https://files.tecnoblog.net/wp-content/uploads/2018/10/1200px-Sony-PSP-1000-Body-700x394.jpg",
+					Price = 249.99m
+				},
+				new Product
+				{
+					Id = 7,
+					CategoryId = 3,
+					Title = "Pro Evolution Soccer 5",
+					Description = "Pro Evolution Soccer 5 (também conhecido como Winning Eleven 9 no Japão e World Soccer Winning Eleven 9 nos Estados Unidos) é o quinto jogo da série Pro Evolution Soccer. As versões para PlayStation 2 e Xbox foram lançadas em 21 de outubro de 2005 e para PC lançada na semana seguinte, no dia 28 de outubro.",
+					ImageURL = "https://s1.kuantokusta.pt/img_upload/produtos_videojogos/70194_3_pro-evolution-soccer-5-ps2-usado.jpg",
+					Price = 39.90m
+				},
+				new Product
+				{
+					Id = 8,
+					CategoryId = 3,
+					Title = "Assassin's Creed IV: Black Flag",
+					Description = "Assassin's Creed IV: Black Flag is an action-adventure, stealth game set in an open world environment and played from a third-person perspective. The game features three main cities; Havana, Kingston, and Nassau, which reside under Spanish, British, and pirate influence, respectively.",
+					ImageURL = "https://upload.wikimedia.org/wikipedia/pt/c/ca/Assassins_Creed_4_Black_Flag_capa.png",
+					Price = 69.90m
+				},
+				new Product
+				{
+					Id = 9,
+					CategoryId = 3,
+					Title = "Grand Theft Auto: San Andreas",
+					Description = "Grand Theft Auto: San Andreas is an action-adventure game with role-playing and stealth elements. Structured similarly to the previous two games in the series, the core gameplay consists of elements of third-person shooter and driving games, affording the player a large, open-world environment in which to move around.",
+					ImageURL = "https://upload.wikimedia.org/wikipedia/pt/d/d3/Grand_Theft_Auto_San_Andreas_capa.png",
+					Price = 59.90m
+				},
+				new Product
+				{
+					Id = 10,
+					CategoryId = 4,
+					Title = "Sporting Home Shirt 2021-22",
+					Description = "SportingCP woven crest, Regular fit, Ribbed crewneck, 100% recycled polyester doubleknit, Moisture absorbing, Ribbed cuffs.",
+					ImageURL = "https://cdn-scp.azureedge.net/lojaverdeonline/0002381_camisola-principal-c-pub-2122-regular.jpeg",
+					Price = 89.99m
+				},
+				new Product
+				{
+					Id = 11,
+					CategoryId = 4,
+					Title = "Manchester United Away Shirt 2021-22",
+					Description = "Manchester United woven crest, Regular fit, Ribbed crewneck, 100% recycled polyester doubleknit, Moisture absorbing, Ribbed cuffs.",
+					ImageURL = "https://images.footballfanatics.com/manchester-united/manchester-united-cup-away-shirt-2021-22-with-ronaldo-7-printing_ss4_p-12093065+pv-1+u-8mba4zrbocgqx36ptevj+v-04188d50c2ed430883097f4b79b27a04.jpg?_hv=1&w=900",
+					Price = 60.00m
+				}
+			);
 		}
 		public DbSet<Product> Products { get; set; }
 		public DbSet<Category> Categories { get; set; }
